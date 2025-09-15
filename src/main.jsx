@@ -7,6 +7,7 @@ import Home from "./components/home/Home";
 import Statistics from "./components/statistics/Statistics";
 import Dashboard from "./components/dashboard/Dashboard";
 import Contact from "./components/contact/Conatct";
+import ProductDetails from "./components/productDetails/ProductDetails";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,18 +16,24 @@ const router = createBrowserRouter([
       {
         path: "/",
         Component: Home,
+        loader: () => fetch("/products.json"),
       },
       {
-        path: "/statistics",
+        path: "statistics",
         Component: Statistics,
       },
       {
-        path: "/dashboard",
+        path: "dashboard",
         Component: Dashboard,
       },
       {
-        path: "/contact",
+        path: "contact",
         Component: Contact,
+      },
+      {
+        path: "productDetails/:userId",
+        Component: ProductDetails,
+        loader: () => fetch("/products.json"),
       },
     ],
   },

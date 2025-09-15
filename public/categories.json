@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "name": "All Products",
+    "slug": "all",
+    "product_ids": [
+      "LAP1001",
+      "LAP1002",
+      "LAP1003",
+      "LAP1004",
+      "LAP1005",
+      "LAP1006",
+      "PHN2001",
+      "PHN2002",
+      "PHN2003",
+      "PHN2004",
+      "PHN2005",
+      "PHN2006",
+      "ACC4001",
+      "ACC4002",
+      "ACC4003",
+      "ACC4004",
+      "ACC4005",
+      "ACC4006",
+      "IPH5001",
+      "IPH5002",
+      "IPH5003",
+      "IPH5004",
+      "MAC3001",
+      "MAC3002",
+      "MAC3003",
+      "MAC3004",
+      "SW5001",
+      "SW5002",
+      "SW5003",
+      "SW5004"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Laptop",
+    "product_ids": [
+      "LAP1001",
+      "LAP1002",
+      "LAP1003",
+      "LAP1004",
+      "LAP1005",
+      "LAP1006"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Phone",
+    "product_ids": [
+      "PHN2001",
+      "PHN2002",
+      "PHN2003",
+      "PHN2004",
+      "PHN2005",
+      "PHN2006"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Accessory",
+    "product_ids": [
+      "ACC4001",
+      "ACC4002",
+      "ACC4003",
+      "ACC4004",
+      "ACC4005",
+      "ACC4006"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "IPhone",
+    "product_ids": ["IPH5001", "IPH5002", "IPH5003", "IPH5004"]
+  },
+  {
+    "id": 5,
+    "name": "MacBook",
+    "product_ids": ["MAC3001", "MAC3002", "MAC3003", "MAC3004"]
+  },
+  {
+    "id": 6,
+    "name": "Smartwatch",
+    "product_ids": ["SW5001", "SW5002", "SW5003", "SW5004"]
+  }
+]

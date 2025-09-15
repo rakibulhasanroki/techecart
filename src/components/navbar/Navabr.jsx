@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { NavLink, useMatch } from "react-router";
 import { useLocation } from "react-router";
 import cart from "../../assets/cart.png";
 import wishlist from "../../assets/wishlist.png";
@@ -11,12 +11,14 @@ export default function Navbar() {
     color: "white",
   });
   const location = useLocation();
+  const productDetailsMatch = useMatch("/productDetails/:userId");
 
   useEffect(() => {
     if (
       location.pathname == "/statistics" ||
       location.pathname == "/dashboard" ||
-      location.pathname == "/contact"
+      location.pathname == "/contact" ||
+      productDetailsMatch
     ) {
       setBgActive({
         backgroundColor: "transparent",
